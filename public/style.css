@@ -1,0 +1,50 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.headingStyle{
+    background-color: purple;
+    color: yellowgreen;
+    padding: 15px;
+    text-align: center;
+}
+
+.largeText {
+    font-size: 4rem;
+}
+
+.card {
+    background: #ffda77;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 390px;
+    display: inline-block;
+}
+
+.empName{
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.empDes {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.compName {
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+.contNo {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.joinDate {
+    text-align: left;
+    font-weight: bold;
+}

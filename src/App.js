@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+// import ReactDOM from 'react-dom';
+import Card from './components/Card';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const tech = "ReactJS";
+const title = "Welcome back to React JS!";
+
+const titleStyle = {
+  color: "yellowgreen", 
+  backgroundColor: "Brown",
+  textAlign: "Center",
+};
+
+function App(){
+    return <div>
+        <h1 className="headingStyle largeText"> {tech} </h1>
+        <h3 style={titleStyle}> {title} </h3>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+  </div>
 }
 
 export default App;
