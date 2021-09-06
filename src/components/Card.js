@@ -1,4 +1,4 @@
-const designationEmp = "Software Engineer";
+// const designationEmp = "Software Engineer";
 const companyName = "BJIT Limited";
 const contNo = "Contact: +8801767142501";
 const joinDate = "Joining date";
@@ -9,7 +9,7 @@ const currentMonth = date.getMonth();
 const currentYear = date.getFullYear();
 
 function Card (props) {
-  const {nameEmp} = props;
+  const {nameEmp, designationEmp} = props;
   return <div className="card">
           <h4 className="empName">{nameEmp}</h4>
           <p className="empDes"> {designationEmp} </p>
