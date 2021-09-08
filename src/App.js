@@ -26,8 +26,8 @@ function App(){
     return <div>
         <h1 className="headingStyle largeText"> {tech} </h1>
         <h3 style={titleStyle}> {title} </h3>
-        <Card nameEmp = "Shomnath Somu" designationEmp = "SOftware Engineer" />
-        <Card nameEmp = "Ta-seen Junaid" designationEmp = "Senior SOftware Engineer" />
+        <Card nameEmp = "Shomnath Somu" designationEmp = "Software Engineer" />
+        <Card nameEmp = "Ta-seen Junaid" designationEmp = "Senior Software Engineer" />
         {items}
         <Card />
         <Card />
