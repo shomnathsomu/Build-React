@@ -2,6 +2,7 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 import Card from './components/Card';
 import Data from './data.json';
+import Company from './components/Company';
 
 const tech = "ReactJS";
 const title = "Welcome back to React JS!";
@@ -31,6 +32,9 @@ function App(){
         {items}
         <Card />
         <Card />
+        <Company compName="BJIT Limited" compDesc="Most popular software company in Bangladesh."/>
+        <Company compName="LinkedIn" compDesc="Most popular professional company in the world!"/>
+        <Company compName="NETFLIX" compDesc="Most popular movie watching site in USA."/>
   </div>
 }
 
