@@ -4,6 +4,7 @@ import Card from './components/Card';
 import Data from './data.json';
 import Company from './components/Company';
 import Counter from './components/Counter';
+import Signup from './components/Signup';
 
 const tech = "ReactJS";
 const title = "Welcome back to React JS!";
@@ -38,6 +39,8 @@ function App(){
         <Company compName="NETFLIX" compDesc="Most popular movie watching site in USA."/>
 
         <Counter />
+
+        <Signup />
   </div>
 }
 
