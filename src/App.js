@@ -5,6 +5,7 @@ import Data from './data.json';
 import Company from './components/Company';
 import Counter from './components/Counter';
 import Signup from './components/Signup';
+import EventHandler from './components/EventHandler';
 
 const tech = "ReactJS";
 const title = "Welcome back to React JS!";
@@ -41,6 +42,8 @@ function App(){
         <Counter />
 
         <Signup />
+
+        <EventHandler />
   </div>
 }
 
