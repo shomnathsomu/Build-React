@@ -6,6 +6,7 @@ import Company from './components/Company';
 import Counter from './components/Counter';
 import Signup from './components/Signup';
 import EventHandler from './components/EventHandler';
+import EventBinding from './components/EventBinding';
 
 const tech = "ReactJS";
 const title = "Welcome back to React JS!";
@@ -44,6 +45,8 @@ function App(){
         <Signup />
 
         <EventHandler />
+
+        <EventBinding />
   </div>
 }
 
