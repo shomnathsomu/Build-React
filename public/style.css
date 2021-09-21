@@ -16,7 +16,7 @@ button {
     color: white;
     margin-right: 10px;
     font-size: 2rem;
-    width: 80px;
+    width: auto;
 }
 
 .headingStyle{
