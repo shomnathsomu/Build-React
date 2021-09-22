@@ -64,3 +64,19 @@ button {
     text-align: left;
     font-weight: bold;
 }
+
+/* Styling Form Component */
+
+div.form {
+    background: #ffda77;
+    box-shadow: 2px 4px 4px gray;
+    border-radius: 5px;
+    padding: 10px;
+    width: 390px;
+    display: inline-block;
+    margin: 10px;
+}
+
+div.form-content{
+    margin-bottom: 10px;
+}
