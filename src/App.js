@@ -9,6 +9,7 @@ import EventHandler from './components/EventHandler';
 import EventBinding from './components/EventBinding';
 import Hooks from './components/Hooks';
 import Form from './components/Form';
+import FormObject from './components/FormObject';
 
 const tech = "ReactJS";
 const title = "Welcome back to React JS!";
@@ -53,6 +54,8 @@ function App(){
         <Hooks />
 
         <Form />
+
+        <FormObject />
   </div>
 }
 
