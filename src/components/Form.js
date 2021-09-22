@@ -15,6 +15,7 @@ export default function Form() {
     const handlePasswordChange = (e) => {
         setPassword(e.target.value);
     };
+    
     const handleSubmit = (e) => {
         console.log("submitted!");
         let userInfo = {
